@@ -43,7 +43,7 @@ new 建構式(); //建構式內之this指向new所產生之新物件
 1.call:可以用來代替另一個對象調用一個方法。call可以將一個函數的對象上下文從初始的上下文改變為由thisObj指定的對象。
 如果沒有提供thisObj參數，那Global對象被用作thisObj。
 
-2.apply:apply方法的第一個參數也是要傳入给當前對象的對象，即函數內部的this。後面的參數都是傳遞給當前對象的參數。 
+2.apply:apply方法的第一個參數也是要傳入给當前對象的對象，即函數內部的this。後面的參數都是傳遞給當前對象的參數。
 apply和call兩者在作用上是相同的，但兩者在參數上有區別，對於第一個參數意義都一樣，但對第二個參數：apply傳入的是一個參數數組，
 也就是將多個參數組合成為一個數組傳入，而call則作為call的參數傳入（從第二個參數開始）。
 
@@ -109,9 +109,12 @@ if(b==null){
 嵌入套用的樣式表 (Embedded stylesheet)
 匯入套用的樣式表 (Imported stylesheet)
 外部連接套用的樣式表 (Linked stylesheet)
-瀏覽器本身的樣式表 (Browser's own stylesheet) 
+瀏覽器本身的樣式表 (Browser's own stylesheet)
 .
 .
+
+the answer ...
+
 ```
 
 ### please explain inline mode, block mode of css
@@ -195,7 +198,7 @@ ORM強在自動產生SQL指令，將效率維持在一定程度上，但因自�
 
 ```
 
-### a layout like that below, how will you implement it and tag naming, please explain 
+### a layout like that below, how will you implement it and tag naming, please explain
 
 ![](http://i.stack.imgur.com/GXLMT.png)
 
